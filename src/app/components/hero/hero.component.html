@@ -1,0 +1,52 @@
+<div class="hero-container position-relative">
+  <div class="position-absolute img-right-transparent">
+    <img src="assets/images/1.png">
+  </div>
+  <div class="position-absolute img-left-white">
+    <img src="assets/images/2.png">
+  </div>
+  <div id="vector-bg" class="position-absolute img-right-vector">
+    <img src="assets/images/3.png">
+  </div>
+  <div class="position-absolute girl-right-container">
+    <img src="assets/images/girl.png">
+  </div>
+
+  <div class="position-absolute hero-text y-center">
+    <div class="main-text poppins">Remove Background</div>
+    <div class="poppins sub-text">in a <span class="text-danger">Single Click</span> using AI</div>
+
+
+    <div class="drop-box my-4" (mouseenter)="handleHoverOnDropbox()" (mouseleave)="handleMouseLeaveOnDropBox()" (click)="INPUT_DROP_BOX.click()">
+      <input #INPUT_DROP_BOX class="d-none" type="file">
+      <div class="position-relative cloud-box">
+        <div class="position-absolute center text-center w-full">
+          <img src="assets/icons/cloud.png" alt="">
+          <div class="drag-text-main poppins">Drag Image Here</div>
+          <div class="drag-text-sub poppins">or browse for image</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-001 d-flex">
+      <div class="fa fa-like mr-12">
+        <img src="assets/icons/like.png" alt="">
+      </div>
+      <span class="under-text">Fully Automated and Free</span>
+    </div>
+
+    <div class="text-002 d-flex">
+      <div class="fa fa-like mr-12">
+        <img src="assets/icons/like.png" alt="">
+      </div>
+      <span class="under-text">2M+ Images Processed, 2000+ Customers</span>
+    </div>
+
+    <div class="text-003 d-flex">
+      <div class="fa fa-like mr-12">
+        <img src="assets/icons/like.png" alt="">
+      </div>
+      <span class="under-text">2M+ Images Processed, 2000+ Customers</span>
+    </div>
+  </div>
+</div>

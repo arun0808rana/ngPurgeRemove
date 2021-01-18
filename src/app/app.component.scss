@@ -1,0 +1,82 @@
+.main {
+  width: var(--pageWidth);
+  height: 734px;
+}
+
+header {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  width: var(--pageWidth);
+  z-index: 7;
+  color: #7c7c7c;
+}
+
+.sign-box button {
+  width: 99.55px;
+  height: 34.84px;
+  border: 1px solid #ffffff;
+  color: white;
+  border-radius: 5px;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+
+footer {
+  width: var(--pageWidth);
+  background-color: black;
+  color: white;
+
+  .links-items {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mail-box-element input {
+    border-radius: 25px;
+    &::placeholder {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 21px;
+      /* identical to box height */
+
+      color: #1c1e52;
+    }
+  }
+}
+
+.airplane {
+  right: 12px;
+  top: 10px;
+}
+
+.sc-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.clipr-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.clipr-sub {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+}
