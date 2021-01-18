@@ -13,9 +13,12 @@ export class HeroComponent implements OnInit {
 
   handleHoverOnDropbox(){
     document.getElementById('vector-bg').style.display = 'none';
+    document.getElementsByClassName('drop-box')[0]['style'].backgroundColor = '#FFF6F4';
   }
 
   handleMouseLeaveOnDropBox(){
     document.getElementById('vector-bg').style.display = 'block';
+    document.getElementsByClassName('drop-box')[0]['style'].backgroundColor = '#fff';
+
   }
 }
